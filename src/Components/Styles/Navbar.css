@@ -1,0 +1,129 @@
+.navbar {
+  width: 100%;
+  height: 100px;
+  /* position: fixed; */
+}
+
+.navbar-lists {
+  list-style: none;
+  display: flex;
+  width: 50%;
+  margin: 1% auto;
+  justify-content: center;
+  /* position: fixed; */
+}
+
+.nav-left {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  /* border: #ffffff solid 2px; */
+  margin: 15px 10% 0 0;
+}
+
+li > img {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-left>.item {
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+  
+}
+
+.toggle {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  margin: 30px 5%;
+  /* display: none; */
+
+}
+
+.nav-right {
+  display: flex;
+  width: 80%;
+  justify-content: flex-end;
+  /* border: #ffffff solid 2px; */
+  margin: 50px 10% 0 0;
+}
+
+.nav-right>.item {
+  color: #000000 !important;
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    height: 70px;
+    margin: 0px;
+    width: 100%;
+    /* position: fixed; */
+    /* margin-bottom: 20%; */
+  }
+  /* .nav-right {
+    display: block;
+    width: 100%;
+    margin: 10%;
+    box-sizing: border-box;
+    padding: 2%
+  } */
+  /* .navbar-lists {
+    display: block;
+    width: 100%;
+    margin: 10%;
+    box-sizing: border-box;
+    padding: 2%
+  } */
+  .toggle {
+    display: block;
+    /* width: 60% !important; */
+    margin: 0px;
+    text-align: right;
+    padding: 1% 0% 1% 10%;
+    font-size: 5vw;
+    color: #ffffff;
+    /* padding-left: 10%;
+    box-sizing: border-box; */
+  }
+  .nav-left {
+    /* display: inline; */
+    display: flex;
+    width: 50%;
+  }
+  .nav-left> .item {
+    text-align: left;
+
+  }
+  .nav-right {
+    width: 100%;
+    text-align: center;
+  }
+  .nav-right {
+    display: none;
+  }
+  .nav-right>.item {
+    text-align: left;
+  }
+  .nav-right>.item {
+    margin: 2% 0px;
+  }
+  .nav-right>.item>li {
+    border-bottom: 1px solid rgb(21, 21, 53);
+    padding: 1% 0% 1% 10%;
+    box-sizing: border-box;
+    font-size: 5vw
+  }
+  .active {
+    display: block;
+  }
+  .active2 {
+    margin-bottom: 20%;
+  }
+}
