@@ -1,12 +1,11 @@
-import React, { Component } from 'react'
-import '../Styles/About.css'
+import React from 'react'
+import '../Styles/About.scss'
 
-export default class About extends Component {
-  render() {
-    return (
-      <div>
-        About
-      </div>
-    )
-  }
+
+export default function About() {
+  return (
+    <div>
+
+    </div>
+  )
 }

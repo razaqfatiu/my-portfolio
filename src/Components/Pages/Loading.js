@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../Styles/Loading.css'
+import '../Styles/Loading.scss'
 
 export default class Loading extends Component {
   render() {
@@ -9,7 +9,6 @@ export default class Loading extends Component {
         <div className="loading-circle"></div>
         <div className="loading-circle"></div>
         <div className="loading-circle"></div>
-
       </div>
     )
   }

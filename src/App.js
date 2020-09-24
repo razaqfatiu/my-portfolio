@@ -5,28 +5,38 @@ import About from './Components/Pages/About';
 import Contact from './Components/Pages/Contact';
 import Loading from './Components/Pages/Loading';
 import NavBar from './Components/Pages/NavBar';
+import Projects from './Components/Pages/Projects';
+import Blog from './Components/Pages/Blog';
 
 function App() {
   return (
-    ( <Loading /> &&
-    <Router>
-      <NavBar />
-      <Switch>
-        <Route exact path='/'>
-          <Home />
-        </Route>
+    (<Loading /> &&
+      <Router>
+        <NavBar />
 
-        <Route path='/about'>
-          <About />
-        </Route>
+        <Switch>
+          <Route exact path='/'>
+            <Home />
+            <Projects />
+            <Contact />
+          </Route>
 
-        <Route path='/contact'>
-          <Contact />
-        </Route>
+          {/* <Route path='/projects'>
+            <Projects />
+          </Route>
 
-      </Switch>
-    </Router>
-  ));
+          <Route path='/contact'>
+            <Contact />
+          </Route> */}
+
+          <Route path='/blog'>
+            <Blog />
+          </Route>
+
+        </Switch>
+
+      </Router>
+    ));
 }
 
 export default App;
