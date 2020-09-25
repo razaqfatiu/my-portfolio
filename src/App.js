@@ -6,6 +6,7 @@ import Loading from './Components/Pages/Loading';
 import NavBar from './Components/Pages/NavBar';
 import Projects from './Components/Pages/Projects';
 import Blog from './Components/Pages/Blog';
+import About from './Components/Pages/About';
 
 function App() {
   return (
@@ -16,17 +17,10 @@ function App() {
         <Switch>
           <Route exact path='/'>
             <Home />
+            <About />
             <Projects />
             <Contact />
           </Route>
-
-          {/* <Route path='/projects'>
-            <Projects />
-          </Route>
-
-          <Route path='/contact'>
-            <Contact />
-          </Route> */}
 
           <Route path='/blog'>
             <Blog />

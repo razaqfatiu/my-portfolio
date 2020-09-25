@@ -5,7 +5,7 @@ import ft from '../../img/ft.jpg'
 
 export default function Home() {
   return (
-    <div className="home-container" id="about">
+    <div className="home-container" id="home">
 
       <div className="section1">
         <div className="sub-sec1">
