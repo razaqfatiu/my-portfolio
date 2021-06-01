@@ -1,5 +1,23 @@
 const cards = [
   {
+    details: "Tropixel",
+    // image: img1,
+    description: "Payment App",
+    url: "https://www.flycash.ng"
+  },
+  {
+    details: "Reventify",
+    // image: img1,
+    description: "CV Builder App",
+    url: "https://www.reventify.com"
+  },
+  {
+    details: "Ligosmart",
+    // image: img1,
+    description: "Ride Sharing App",
+    url: "https://www.ligosmart.com"
+  },
+  {
     details: "Nomaex",
     // image: img1,
     description: "E-Commerce Web App",

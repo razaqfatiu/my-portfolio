@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Styles/Home.scss'
-import ft from '../../img/ft.jpg'
+import ft from '../../img/ft2.jpg'
 
 
 export default function Home() {

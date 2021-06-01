@@ -7,14 +7,6 @@ export default function About() {
     <div className="about-component" id="about">
       <h1>About Me</h1>
 
-      <div className="education-div">
-        <h2 className="education">EDUCATION</h2>
-        <ul className="edu-bg">
-          <li>I am a FullStack Developer Student at <a href="https://openclassrooms.com/">Openclassroom</a> </li>
-          <li>I am a Mathematics graduate at University of Ilorin </li>
-        </ul>
-      </div>
-
       <div className="work-exp">
         <h2>WORK EXPERIENCE</h2>
         <details>
